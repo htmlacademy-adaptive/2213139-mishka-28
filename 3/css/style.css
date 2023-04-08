@@ -201,7 +201,7 @@ img {
   display: inline-block;
   width: 27px;
   height: 35px;
-  background-image: url("../../img/html-academy.svg");
+  background-image: url("../img/html-academy.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
@@ -247,7 +247,7 @@ img {
   position: relative;
   padding-top: 53px;
   min-height: 480px;
-  background-image: url("../../img/hero-mobile@2x.png");
+  background-image: url("../img/hero-mobile@2x.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: auto;
@@ -288,7 +288,7 @@ img {
 }
 
 .featured {
-  background-image: url("../../img/zigzag-line-desktop.svg");
+  background-image: url("../img/zigzag-line-desktop.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-top: 30px;
@@ -377,7 +377,7 @@ img {
 }
 
 .reviews {
-  background-image: url("../../img/zigzag-line-desktop.svg");
+  background-image: url("../img/zigzag-line-desktop.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-top: 30px;
