@@ -114,7 +114,6 @@ img {
   grid-template-columns: 1fr;
   padding-top: 21px;
   padding-bottom: 22px;
-  width: 100%;
   border: 1px solid var(--c-line);
 }
 
@@ -166,8 +165,30 @@ img {
 }
 
 .burger {
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
   width: 20px;
-  height: 24px;
+  height: 14px;
+  overflow: hidden;
+  border: none;
+}
+
+.burger__line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--c-bold-text);
+}
+.burger__line--top {
+  top: 0;
+}
+.burger__line--center {
+  top: 6px;
+}
+.burger__line--bottom {
+  bottom: 0;
 }
 
 .footer {
@@ -606,6 +627,11 @@ img {
   padding-top: 20px;
   padding-bottom: 30px;
   border: 1px solid var(--c-line);
+}
+
+.catalog__link-order {
+  min-width: 192px;
+  max-width: 192px;
 }
 
 .adding__title {
