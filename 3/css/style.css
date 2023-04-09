@@ -68,7 +68,7 @@ img {
   margin: 0 auto;
   padding-right: 30px;
   padding-left: 30px;
-  max-width: 1090px;
+  width: 320px;
 }
 
 .visually-hidden {
@@ -590,6 +590,10 @@ img {
 .catalog__link {
   text-decoration: none;
   color: inherit;
+}
+
+.catalog__image {
+  display: block;
 }
 
 .catalog__subtitle,
