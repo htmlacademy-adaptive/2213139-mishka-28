@@ -150,16 +150,6 @@ img {
   display: block;
 }
 
-.navigation {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100%;
-  z-index: 1;
-  background-color: var(--white);
-  display: none;
-}
-
 .navigation__list {
   margin: 0;
   padding-left: 0;
@@ -308,6 +298,7 @@ img {
   background-image: url("../img/zigzag-mobile.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
+  background-size: 100%;
   padding-top: 31px;
   padding-bottom: 43px;
 }
@@ -399,6 +390,7 @@ img {
   background-image: url("../img/zigzag-mobile.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
+  background-size: 100%;
   padding-top: 23px;
   padding-bottom: 51px;
 }
@@ -495,6 +487,7 @@ img {
 .contacts__link-email {
   text-decoration: none;
   color: inherit;
+  padding-bottom: 2px;
   border-bottom: 1px solid var(--color-link-border);
 }
 
