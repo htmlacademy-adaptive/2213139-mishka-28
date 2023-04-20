@@ -254,13 +254,13 @@ img {
   }
 }
 
-.js-active {
+.navigation__js-active {
   visibility: hidden;
   transform: translateY(-150%);
   transition: visibility 0.4s, transform 0.4s cubic-bezier(0, 0.76, 0.74, 0.92);
 }
 @media (min-width: 768px) {
-  .js-active {
+  .navigation__js-active {
     visibility: visible;
     transform: none;
   }
